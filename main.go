@@ -15,7 +15,7 @@ func main() {
 
 	//rl.SetTargetFPS(60)
 	tiles := []settings.Tile{
-		settings.NewTile(rl.NewVector2(100, 100), rl.NewVector2(50, 50), rl.Red),
+		settings.NewTile(rl.NewVector2(100, 100), rl.NewVector2(10, 10), rl.Red),
 		settings.NewTile(rl.NewVector2(200, 200), rl.NewVector2(50, 50), rl.Blue),
 		settings.NewTile(rl.NewVector2(300, 300), rl.NewVector2(50, 50), rl.Green),
 	}
